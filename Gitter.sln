@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B7B927F5-C67B-4997-A8B4-8A9753191A4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{BEFA7212-903E-46A4-9EC2-E7360F83AF8D}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E5410423-ED70-4B7C-8AC5-A534B98F8749}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{124CC241-C92A-48AB-9649-9EA48E09FE8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entites", "Entites", "{98171D6C-93E9-4C4A-A229-FF77A82E14E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{283A27DA-E806-4DFA-B43A-03334F82CF8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{BB0213DE-538D-48FB-A6C6-9C5A061FFCDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEBAPI", "WEBAPI", "{7A1CC0CD-E223-4C24-B462-77ACEBF83948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nagarro.Gitter.Presentation", "Nagarro.Gitter.Presentation\Nagarro.Gitter.Presentation.csproj", "{EF8A078A-29EF-4C57-AC3E-3C6D483BF258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nagarro.Gitter.Business", "Nagarro.Gitter.Business\Nagarro.Gitter.Business.csproj", "{9A719D76-9C86-4C48-81D2-F016588ADCAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nagarro.Gitter.Entites", "Nagarro.Gitter.Entites\Nagarro.Gitter.Entites.csproj", "{AA1E0329-C646-4B77-9CDC-5BB96B7FA64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nagarro.Gitter.Repository", "Nagarro.Gitter.Repository\Nagarro.Gitter.Repository.csproj", "{709A1B23-DC5A-4544-9BD1-898BF253740F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nagarro.Gitter.Shared", "Nagarro.Gitter.Shared\Nagarro.Gitter.Shared.csproj", "{A473D38D-2C2C-46D6-9FF6-82AA8D268757}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF8A078A-29EF-4C57-AC3E-3C6D483BF258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8A078A-29EF-4C57-AC3E-3C6D483BF258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8A078A-29EF-4C57-AC3E-3C6D483BF258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8A078A-29EF-4C57-AC3E-3C6D483BF258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A719D76-9C86-4C48-81D2-F016588ADCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A719D76-9C86-4C48-81D2-F016588ADCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A719D76-9C86-4C48-81D2-F016588ADCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A719D76-9C86-4C48-81D2-F016588ADCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1E0329-C646-4B77-9CDC-5BB96B7FA64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1E0329-C646-4B77-9CDC-5BB96B7FA64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1E0329-C646-4B77-9CDC-5BB96B7FA64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1E0329-C646-4B77-9CDC-5BB96B7FA64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{709A1B23-DC5A-4544-9BD1-898BF253740F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709A1B23-DC5A-4544-9BD1-898BF253740F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709A1B23-DC5A-4544-9BD1-898BF253740F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709A1B23-DC5A-4544-9BD1-898BF253740F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A473D38D-2C2C-46D6-9FF6-82AA8D268757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A473D38D-2C2C-46D6-9FF6-82AA8D268757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A473D38D-2C2C-46D6-9FF6-82AA8D268757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A473D38D-2C2C-46D6-9FF6-82AA8D268757}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5410423-ED70-4B7C-8AC5-A534B98F8749} = {B7B927F5-C67B-4997-A8B4-8A9753191A4E}
+		{124CC241-C92A-48AB-9649-9EA48E09FE8F} = {B7B927F5-C67B-4997-A8B4-8A9753191A4E}
+		{98171D6C-93E9-4C4A-A229-FF77A82E14E4} = {B7B927F5-C67B-4997-A8B4-8A9753191A4E}
+		{283A27DA-E806-4DFA-B43A-03334F82CF8C} = {B7B927F5-C67B-4997-A8B4-8A9753191A4E}
+		{BB0213DE-538D-48FB-A6C6-9C5A061FFCDB} = {B7B927F5-C67B-4997-A8B4-8A9753191A4E}
+		{7A1CC0CD-E223-4C24-B462-77ACEBF83948} = {E5410423-ED70-4B7C-8AC5-A534B98F8749}
+		{EF8A078A-29EF-4C57-AC3E-3C6D483BF258} = {7A1CC0CD-E223-4C24-B462-77ACEBF83948}
+		{9A719D76-9C86-4C48-81D2-F016588ADCAC} = {124CC241-C92A-48AB-9649-9EA48E09FE8F}
+		{AA1E0329-C646-4B77-9CDC-5BB96B7FA64B} = {98171D6C-93E9-4C4A-A229-FF77A82E14E4}
+		{709A1B23-DC5A-4544-9BD1-898BF253740F} = {283A27DA-E806-4DFA-B43A-03334F82CF8C}
+		{A473D38D-2C2C-46D6-9FF6-82AA8D268757} = {BB0213DE-538D-48FB-A6C6-9C5A061FFCDB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E849A6F-0D0A-4FB8-9122-C55DA702A115}
+	EndGlobalSection
+EndGlobal
